@@ -7,7 +7,9 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose",
+    "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner",
+    "dev": "NODE_ENV=development nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,15 +28,34 @@
     "url": "https://github.com/gagocarrilloedgar/nuwe-backend-boilerplate/issues"
   },
   "homepage": "https://github.com/gagocarrilloedgar/nuwe-backend-boilerplate#readme",
-  "dependencies": {
-    "jest": "^27.0.6"
-  },
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.0.6",
+    "jest-json-reporter": "^1.2.2",
+    "nodemon": "^2.0.12",
+    "sonar-scanner": "^3.1.0",
     "supertest": "^6.1.4"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "./test/report",
+    "forceCoverageMatch": [
+      "**/*.t.js"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "lcov"
+    ],
+    "testResultsProcessor": "jest-json-reporter"
+  },
+  "jestJsonReporter": {
+    "outputFile": "./test/report/results.json"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
   }
 }
