@@ -1,59 +1,58 @@
-# nuwe-backend-boilerplate
+# node-boilerplate
 
-Boilerplate de un proyecto de node para empezar a trabajar con el y poder analizarlo de forma fácil con el algoritmo de NUWE.
-Está preparado con un paquete de lints y test básico de jest y supertest
+Boilerplate of a node project to start working with.
+It is prepared with a package of lints and basic tests of jest and supertest
 
-## Descripción detallada (opcional)
+## Detailed description
 
-Hazle saber a la gente de que va o puede puede hacer tu proyecto. Proporcinoa contexto y agrega un enlace a cualquier referencia con la que los visitantes no estén familiarizados. También se puede agregar aquí una lista de características o una subsección de antecedentes. Si existen alternativas para su proyecto, este es un buen lugar para enumerar los factores diferenciadores.
+Let people know what your project is going to or can do. Provide context and add a link to any references that visitors aren't familiar with. A feature list or background subsection can also be added here. If there are alternatives for your project, this is a good place to list the differentiating factors.
 
-## Badges (opcional)
+## Badges (optional)
 
-En algunos archivos READMEs, es posible que hayas visto pequeñas imágenes que transmiten metadatos, como si todas las pruebas están pasando o no para el proyecto. Puedes usar [Shields](http://shields.io/) para agregar algunos a tu README. Muchos servicios también tienen instrucciones para agregar una insignia. 
+In some READMEs, you may have seen little images that convey metadata, such as whether or not all tests are passing for the project. You can use [Shields](http://shields.io/) to add some to your README. Many services also have instructions for adding a badge.
 
-## Install
+##Install
 
 ```shell
-    # Utilizando git y npm
-    git clone https://github.com/gagocarrilloedgar/nuwe-node-boilerplate 
-    npm install 
+    # Using git and npm
+    git clone https://github.com/gagocarrilloedgar/nuwe-node-boilerplate
+    npm install
 ```
 
-más info sobre [gitx]()
+more info about [gitx]()
 
 ```shell
-    # Utilizando gitx
+    # Using gitx
     gitx clone https://github.com/gagocarrilloedgar/nuwe-node-boilerplate
 ```
 
 ## Usage
 
-Siplemente clonar y utilizar para completar el proyecto que que se ha pedido o crear un proyecto en node aparte
+Simply clone and use to complete the requested project or create a separate node project
 
-## Stack y tecnologías 
+## Stack and technologies
 
-Stack que utiliza:
+Stack that uses:
 
 - Jest
 - Supertest
-- ESLint --> configuración de js standar
-- Prettier --> Configuraicón para que no tenga conflictos con ESLint
-- Express
+- ESLint --> standard js configuration
+- Prettier --> Configuration so that it does not have conflicts with ESLint
+-express
 
-El resto de las tecnologías las eliges tu. También puedes desinstalar express y utilizar cualquier otro.
+The rest of the technologies are chosen by you. You can also uninstall express and use any other.
 
-## Roadmap and visuals (opcional)
+## Roadmap and visuals (optional)
 
-Explicación extra, imágenes, wireframes, mockups, GIFs, etc.
+Extra explanation, images, wireframes, mockups, GIFs, etc.
 
-## Contribución y Apoyo (opcional)
+## Contribution and Support (optional)
 
-Puedes comentar el proceso de que tiene que hacer una persona si quiere colaborar o apoyar el proyecto
+You can comment on the process that a person has to do if they want to collaborate or support the project
 
-## Contact info y Reconocimientos
+## Contact info and Acknowledgments
 
-Pon tu información básica de contacto y reconocmientos si es necesario
-## Licence 
+Put your basic contact information and acknowledgments if necessary
+## license
 
 [MIT](https://opensource.org/licenses/MIT)
-
